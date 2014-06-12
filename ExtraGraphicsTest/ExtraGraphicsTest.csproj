@@ -50,10 +50,10 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
-    <Compile Include="BoundingBoxTests\EllipseBoxTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="BoundingBoxTests\" />
     <Folder Include="PointTests\" />
     <Folder Include="ShapeTests\" />
   </ItemGroup>

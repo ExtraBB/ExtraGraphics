@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace ExtraGraphics.Points
 {
-    public class Point2D<T> : IPoint
+    public class Point2D
     {
-        public T X;
-        public T Y;
+        public float X;
+        public float Y;
 
-        public Point2D(T x, T y)
+        public Point2D(float x, float y)
         {
             X = x;
             Y = y;
